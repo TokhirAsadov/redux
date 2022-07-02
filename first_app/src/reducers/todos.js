@@ -1,20 +1,33 @@
-const initialState = [
-  {
-    id: 1,
-    text: "Java"
-  },
-  {
-    id: 2,
-    text: "Spring"
-  },
-  {
-    id: 3,
-    text: "Spring boot"
-  },
-];
+import {TODO} from "../constante/todos";
+
+const initialState = [];
 
 const todos = (state = initialState,action) => {
-  return state;
+  switch (action.type){
+    case TODO.ADD_TODO:
+      return [
+        ...state,
+        action.payload
+      ]
+    case TODO.REMOVE_TODO:
+      return state.filter(item => item.id !== action.payload.id)
+    case TODO.MARK_TODO_DONE:
+      return state.map(item => {
+        if (item.id === action.payload.id){
+          return {
+            ...item,
+            isDone: action.payload.isDone
+          }
+        }
+        else {
+          return item
+        }
+      })
+    case TODO.INITIALIZE_TODO:
+      return action.payload;
+    default :
+      return state;
+  }
 }
 
 export default todos;

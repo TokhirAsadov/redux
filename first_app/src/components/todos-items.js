@@ -8,8 +8,13 @@ const TodosItems = () => {
       {
         todos.length !== 0 ?
         todos.map((item) => {
-          return <TodoItem key={item.id} text={item.text}/>
-        }) : <h1 className="text-center mt-3 mb-3">Not fount todos...</h1>
+          return <TodoItem
+            key={item.id}
+            id={item.id}
+            title={item.title}
+            isDone={item.isDone}
+          />
+        }) : <h1 className="text-center mt-3 mb-3" key={"not"}>Not fount todos...</h1>
       }
     </ul>
   );
