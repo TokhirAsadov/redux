@@ -2,24 +2,55 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createStore } from "redux";
 
-const intialState = 0;
+const intialState = { value: 0 };
 
 const reducer = (state = intialState, action) => {
   switch (action.type){
     case "INCREMENT": {
-      return state + 1;
+      return {
+        ...state,
+        value: state.value + 1,
+      };
+    }
+    case "DECREMENT": {
+      return {
+        ...state,
+        value: state.value - 1,
+      };
+    }
+    case "RANDOM": {
+      return {
+        ...state,
+        value: action.payload,
+      };
     }
     default:
       return state;
   }
 }
 
+const inc = () =>({ type: "INCREMENT" });
+const dec = () =>({ type: "DECREMENT" });
+const random = (number) =>({ type: "RANDOM", payload: number });
+
+document.getElementById("increment").addEventListener("click", ()=>{
+  store.dispatch(inc());
+});
+document.getElementById("decrement").addEventListener("click",()=>{
+  store.dispatch(dec());
+});
+document.getElementById("random").addEventListener("click",()=>{
+  const randomValue = Math.floor(Math.random() * 10);
+  store.dispatch(random(randomValue))
+});
+
+
 const store = createStore(reducer);
-store.subscribe(()=>{ // kuzatuvchi uzgarishni tutib oladi
-  console.log(store.getState())
-})
-store.dispatch({type:"INCREMENT"});
-store.dispatch({type:"INCREMENT"});
+const update = ()=>{
+  document.getElementById("counter").textContent = store.getState().value;
+}
+store.subscribe(update);// kuzatuvchi uzgarishni tutib oladi
+
 store.dispatch({type:"INCREMENT"});
 
 
