@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="used payload">
-      <change afterPath="$PROJECT_DIR$/second_app/src/redux/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_app/src/redux/reducer.js" afterDir="false" />
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use bindActionCreators and functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/second_app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2BTeXcvgs5ktJ4LUZB2apGnV5PT" />
@@ -61,7 +64,7 @@
       <workItem from="1656934545746" duration="4188000" />
       <workItem from="1657109041761" duration="673000" />
       <workItem from="1657131522406" duration="11000" />
-      <workItem from="1658135505622" duration="3613000" />
+      <workItem from="1658135505622" duration="4162000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
@@ -98,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656938163744</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="use actions and reducer">
+      <created>1658140538264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658140538264</updated>
+    </task>
+    <task id="LOCAL-00007" summary="use bindActionCreators and functions">
+      <created>1658140567997</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658140567997</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +139,8 @@
     <MESSAGE value="don`t use react" />
     <MESSAGE value="add redux and react-redux" />
     <MESSAGE value="used payload" />
-    <option name="LAST_COMMIT_MESSAGE" value="used payload" />
+    <MESSAGE value="use actions and reducer" />
+    <MESSAGE value="use bindActionCreators and functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="use bindActionCreators and functions" />
   </component>
 </project>
