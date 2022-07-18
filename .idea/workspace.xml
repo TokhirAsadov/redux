@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use bindActionCreators and functions">
+      <change afterPath="$PROJECT_DIR$/second_app/src/component/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_app/src/component/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_app/src/handlerRedux.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/second_app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/second_app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_app/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/second_app/src/redux/actions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +71,7 @@
       <workItem from="1657109041761" duration="673000" />
       <workItem from="1657131522406" duration="11000" />
       <workItem from="1658135505622" duration="4162000" />
+      <workItem from="1658154001946" duration="3038000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
@@ -115,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658140567997</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="use bindActionCreators and functions">
+      <created>1658154015002</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658154015002</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
