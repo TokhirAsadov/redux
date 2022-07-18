@@ -1,57 +1,57 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createStore } from "redux";
+import { createStore,bindActionCreators } from "redux";
+import * as actions from "./redux/actions"; // import {dec, inc, random} from "./redux/actions";
+import reducer from "./redux/reducer";
 
-const intialState = { value: 0 };
+const store = createStore(reducer); // create store <---------------------------------
+const { dispatch,subscribe,getState } = store;
 
-const reducer = (state = intialState, action) => {
-  switch (action.type){
-    case "INCREMENT": {
-      return {
-        ...state,
-        value: state.value + 1,
-      };
-    }
-    case "DECREMENT": {
-      return {
-        ...state,
-        value: state.value - 1,
-      };
-    }
-    case "RANDOM": {
-      return {
-        ...state,
-        value: action.payload,
-      };
-    }
-    default:
-      return state;
-  }
-}
+subscribe(()=>{ // kuzatuvchi uzgarishni tutib oladi
+  document.getElementById("counter").textContent = getState().value;
+});
 
-const inc = () =>({ type: "INCREMENT" });
-const dec = () =>({ type: "DECREMENT" });
-const random = (number) =>({ type: "RANDOM", payload: number });
+const { inc, dec, random } = bindActionCreators(
+  actions,
+  dispatch
+)
 
 document.getElementById("increment").addEventListener("click", ()=>{
-  store.dispatch(inc());
+  inc();
 });
+
 document.getElementById("decrement").addEventListener("click",()=>{
-  store.dispatch(dec());
+  dec();
 });
+
 document.getElementById("random").addEventListener("click",()=>{
   const randomValue = Math.floor(Math.random() * 10);
-  store.dispatch(random(randomValue))
+  random(randomValue);
 });
 
-
-const store = createStore(reducer);
-const update = ()=>{
-  document.getElementById("counter").textContent = store.getState().value;
-}
-store.subscribe(update);// kuzatuvchi uzgarishni tutib oladi
-
-store.dispatch({type:"INCREMENT"});
+// const bindActionCreator=
+//   (creator, dispatch) =>
+//     (...args) => {
+//       dispatch(creator(...args));
+//     }
+//
+// const incHandler = bindActionCreator(inc, dispatch);
+// const decHandler = bindActionCreator(dec, dispatch);
+// const randomHandler = bindActionCreator(random, dispatch);
+//
+//
+// document.getElementById("increment").addEventListener("click", ()=>{
+//   incHandler();
+// });
+//
+// document.getElementById("decrement").addEventListener("click",()=>{
+//   decHandler();
+// });
+//
+// document.getElementById("random").addEventListener("click",()=>{
+//   const randomValue = Math.floor(Math.random() * 10);
+//   randomHandler(randomValue);
+// });
 
 
 
