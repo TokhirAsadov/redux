@@ -3,16 +3,18 @@ import {connect} from "react-redux";
 import * as actions from "../redux/actions";
 import {bindActionCreators} from "redux";
 
-function Counter({ counter, inc, dec, random }) {
-  return (
-    <div>
-      <h1>Counter: {counter}</h1>
-      <button onClick={inc} className="btn btn-primary">Increment +</button>
-      <button onClick={dec} className="btn btn-danger">Decrement -</button>
-      <button onClick={random} className="btn btn-info">Random#</button>
-    </div>
-  );
-}
+
+/** ================   Functional Component   =================== **/
+// function Counter({ counter, inc, dec, random }) {
+//   return (
+//     <div>
+//       <h1>Counter: {counter}</h1>
+//       <button onClick={inc} className="btn btn-primary">Increment +</button>
+//       <button onClick={dec} className="btn btn-danger">Decrement -</button>
+//       <button onClick={random} className="btn btn-info">Random#</button>
+//     </div>
+//   );
+// }
 
 const mapStateToProps = (state) => {
   return {

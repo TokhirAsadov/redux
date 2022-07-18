@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use bindActionCreators and functions">
-      <change afterPath="$PROJECT_DIR$/second_app/src/component/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_app/src/component/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_app/src/handlerRedux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/second_app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/second_app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_app/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/second_app/src/redux/actions.js" afterDir="false" />
-    </list>
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use connect function" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +63,7 @@
       <workItem from="1657109041761" duration="673000" />
       <workItem from="1657131522406" duration="11000" />
       <workItem from="1658135505622" duration="4162000" />
-      <workItem from="1658154001946" duration="3038000" />
+      <workItem from="1658154001946" duration="3359000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
@@ -129,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658154015002</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="use connect function">
+      <created>1658157332825</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658157332825</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +154,7 @@
     <MESSAGE value="used payload" />
     <MESSAGE value="use actions and reducer" />
     <MESSAGE value="use bindActionCreators and functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="use bindActionCreators and functions" />
+    <MESSAGE value="use connect function" />
+    <option name="LAST_COMMIT_MESSAGE" value="use connect function" />
   </component>
 </project>
