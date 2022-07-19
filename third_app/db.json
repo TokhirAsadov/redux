@@ -1,0 +1,29 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "name": "OK 1",
+      "description": "Россия президенти Эронга йўл олди - бу унинг феврал ойи охирида Украинага босқин бошлашидан буён иккинчи хорижий ташрифи бўлади. Теҳрон халқаро майдонда Москванинг кам сонли иттифоқчиларидан бири бўлиб қолмоқда",
+      "category": "Hot News"
+    },
+    {
+      "id": 2,
+      "name": "Football News",
+      "description": "Man Utd beat Crystal Palace 3-1 in Australia",
+      "category": "Sport News"
+    },
+    {
+      "id": 3,
+      "name": "OK 3",
+      "description": "England head coach Sarina Wiegman previews Euro 2022 quarter-final against Spain",
+      "category": "Sport News"
+    },
+    {
+      "id": 4,
+      "name": "OK 4",
+      "description": "Агар ер сингари ишлаб чиқариш воситалари хусусий қўлларда бўлмаса, катта эҳтимол билан улар самарасиз ишлатилади. Ерга хусусий эгалик қилиш ҳуқуқи нафақат аграр давлатнинг ривожи учун, балки бутун бошли халқнинг ирсий фондини сақлаб қолиш учун ҳам керак. Бу ҳақда Kun.uz колумнисти Шаҳзод Йўлдошбоев фикр юритади.",
+      "category": "World News"
+    }
+  ],
+  "filters": ["all","hot","sport","world"]
+}
