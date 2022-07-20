@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="Bismillah,&#10;Started third app">
-      <change afterPath="$PROJECT_DIR$/third_app/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/index.scss" afterDir="false" />
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="&quot;start&quot;: &quot;concurrently \&quot;react-scripts start\&quot; \&quot;npx json-server db.json --port 3001\&quot; &quot;,">
+      <change afterPath="$PROJECT_DIR$/third_app/src/assets/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/components/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/components/NewsAddForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/components/NewsFilter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/hook/useHttp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/third_app/src/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,6 +60,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\frontend\react\redux\third_app\src\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\frontend\react\redux\third_app\src\components" />
     </key>
@@ -79,7 +85,8 @@
       <workItem from="1657131522406" duration="11000" />
       <workItem from="1658135505622" duration="4162000" />
       <workItem from="1658154001946" duration="4396000" />
-      <workItem from="1658230293298" duration="4522000" />
+      <workItem from="1658230293298" duration="6766000" />
+      <workItem from="1658318679671" duration="2707000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
@@ -186,7 +193,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658233049737</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=" &quot;react-redux&quot;: &quot;^8.0.2&quot;, &quot;redux&quot;: &quot;^4.2.0&quot;,&quot;sass&quot;: &quot;^1.53.0&quot;,&#10;                             &quot;uuid&quot;: &quot;^8.3.2&quot;,    &quot;bootstrap&quot;: &quot;^5.1.3&quot;,&#10;                                                  &quot;classnames&quot;: &quot;^2.3.1&quot;,&#10;&quot;concurrently&quot;: &quot;^7.3.0&quot;,">
+      <created>1658235142838</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658235142838</updated>
+    </task>
+    <task id="LOCAL-00017" summary=" &quot;react-redux&quot;: &quot;^8.0.2&quot;, &quot;redux&quot;: &quot;^4.2.0&quot;,&quot;sass&quot;: &quot;^1.53.0&quot;,&#10;                             &quot;uuid&quot;: &quot;^8.3.2&quot;,    &quot;bootstrap&quot;: &quot;^5.1.3&quot;,&#10;                                                  &quot;classnames&quot;: &quot;^2.3.1&quot;,&#10;&quot;concurrently&quot;: &quot;^7.3.0&quot;,">
+      <created>1658235164876</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658235164876</updated>
+    </task>
+    <task id="LOCAL-00018" summary="&quot;start&quot;: &quot;concurrently \&quot;react-scripts start\&quot; \&quot;npx json-server db.json --port 3001\&quot; &quot;,">
+      <created>1658235180488</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658235180488</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +246,8 @@
     <MESSAGE value="use useSelector and useDispatch" />
     <MESSAGE value="add window.__REDUX_DEVTOOLS_EXTENSION__ &amp;&amp; window.__REDUX_DEVTOOLS_EXTENSION__() redux devtools" />
     <MESSAGE value="Bismillah,&#10;Started third app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bismillah,&#10;Started third app" />
+    <MESSAGE value=" &quot;react-redux&quot;: &quot;^8.0.2&quot;, &quot;redux&quot;: &quot;^4.2.0&quot;,&quot;sass&quot;: &quot;^1.53.0&quot;,&#10;                             &quot;uuid&quot;: &quot;^8.3.2&quot;,    &quot;bootstrap&quot;: &quot;^5.1.3&quot;,&#10;                                                  &quot;classnames&quot;: &quot;^2.3.1&quot;,&#10;&quot;concurrently&quot;: &quot;^7.3.0&quot;," />
+    <MESSAGE value="&quot;start&quot;: &quot;concurrently \&quot;react-scripts start\&quot; \&quot;npx json-server db.json --port 3001\&quot; &quot;," />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;start&quot;: &quot;concurrently \&quot;react-scripts start\&quot; \&quot;npx json-server db.json --port 3001\&quot; &quot;," />
   </component>
 </project>

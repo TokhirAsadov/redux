@@ -5,3 +5,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+.app{
+  height: 100vh;
+  overflow: scroll;
+  background: url("./assets/bg.jpg") center / cover no-repeat;
+}
+.content{
+  display: grid;
+  grid-template-columns: 500px 450px;
+  max-width: 1024px;
+  margin: 0 auto!important;
+  padding-top: 50px!important;
+  &__page{
+    padding-left: 40px!important;
+  }
+}
