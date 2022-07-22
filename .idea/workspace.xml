@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="&quot;start&quot;: &quot;concurrently \&quot;react-scripts start\&quot; \&quot;npx json-server db.json --port 3001\&quot; &quot;,">
-      <change afterPath="$PROJECT_DIR$/third_app/src/assets/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/components/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/components/NewsAddForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/components/NewsFilter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/hook/useHttp.jsx" afterDir="false" />
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add dependencies">
+      <change afterPath="$PROJECT_DIR$/third_app/src/assets/news.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/components/NewsListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/components/Spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/components/error/Error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/components/error/error.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/redux/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/redux/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/hook/useHttp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/hook/useHttp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -86,7 +90,9 @@
       <workItem from="1658135505622" duration="4162000" />
       <workItem from="1658154001946" duration="4396000" />
       <workItem from="1658230293298" duration="6766000" />
-      <workItem from="1658318679671" duration="2707000" />
+      <workItem from="1658318679671" duration="5988000" />
+      <workItem from="1658404114873" duration="1063000" />
+      <workItem from="1658495301028" duration="4418000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
@@ -214,7 +220,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658235180488</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add components">
+      <created>1658321627645</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658321627645</updated>
+    </task>
+    <task id="LOCAL-00020" summary="create hook">
+      <created>1658321640959</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658321640960</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add dependencies">
+      <created>1658321688618</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1658321688618</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +275,9 @@
     <MESSAGE value="Bismillah,&#10;Started third app" />
     <MESSAGE value=" &quot;react-redux&quot;: &quot;^8.0.2&quot;, &quot;redux&quot;: &quot;^4.2.0&quot;,&quot;sass&quot;: &quot;^1.53.0&quot;,&#10;                             &quot;uuid&quot;: &quot;^8.3.2&quot;,    &quot;bootstrap&quot;: &quot;^5.1.3&quot;,&#10;                                                  &quot;classnames&quot;: &quot;^2.3.1&quot;,&#10;&quot;concurrently&quot;: &quot;^7.3.0&quot;," />
     <MESSAGE value="&quot;start&quot;: &quot;concurrently \&quot;react-scripts start\&quot; \&quot;npx json-server db.json --port 3001\&quot; &quot;," />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;start&quot;: &quot;concurrently \&quot;react-scripts start\&quot; \&quot;npx json-server db.json --port 3001\&quot; &quot;," />
+    <MESSAGE value="add components" />
+    <MESSAGE value="create hook" />
+    <MESSAGE value="add dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dependencies" />
   </component>
 </project>
