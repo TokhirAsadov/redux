@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add dependencies">
-      <change afterPath="$PROJECT_DIR$/third_app/src/assets/news.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/components/NewsListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/components/Spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/components/error/Error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/components/error/error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/redux/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_app/src/redux/reducer.js" afterDir="false" />
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add NewsListItem.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/hook/useHttp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/hook/useHttp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsAddForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsAddForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +81,8 @@
       <workItem from="1658230293298" duration="6766000" />
       <workItem from="1658318679671" duration="5988000" />
       <workItem from="1658404114873" duration="1063000" />
-      <workItem from="1658495301028" duration="4418000" />
+      <workItem from="1658495301028" duration="5438000" />
+      <workItem from="1658585206714" duration="921000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
@@ -241,7 +231,91 @@
       <option name="project" value="LOCAL" />
       <updated>1658321688618</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="error page 404">
+      <created>1658502723329</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502723329</updated>
+    </task>
+    <task id="LOCAL-00023" summary="change data">
+      <created>1658502736138</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502736138</updated>
+    </task>
+    <task id="LOCAL-00024" summary="create actions">
+      <created>1658502746111</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502746111</updated>
+    </task>
+    <task id="LOCAL-00025" summary="create reducer">
+      <created>1658502756498</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502756498</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add spinner">
+      <created>1658502765276</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502765276</updated>
+    </task>
+    <task id="LOCAL-00027" summary="change codes">
+      <created>1658502778974</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502778974</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add workspaces">
+      <created>1658502791713</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502791713</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add redux">
+      <created>1658502804124</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502804124</updated>
+    </task>
+    <task id="LOCAL-00030" summary="remove some codes">
+      <created>1658502823652</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502823652</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add news images">
+      <created>1658502839265</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502839265</updated>
+    </task>
+    <task id="LOCAL-00032" summary="done NewsList">
+      <created>1658502872312</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502872312</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add NewsListItem.js">
+      <created>1658502886280</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1658502886280</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,11 +334,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bismillah&#10;Second studying" />
-    <MESSAGE value="some codes" />
-    <MESSAGE value="don`t use react" />
-    <MESSAGE value="add redux and react-redux" />
-    <MESSAGE value="used payload" />
     <MESSAGE value="use actions and reducer" />
     <MESSAGE value="use bindActionCreators and functions" />
     <MESSAGE value="use connect function" />
@@ -278,6 +347,18 @@
     <MESSAGE value="add components" />
     <MESSAGE value="create hook" />
     <MESSAGE value="add dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dependencies" />
+    <MESSAGE value="error page 404" />
+    <MESSAGE value="change data" />
+    <MESSAGE value="create actions" />
+    <MESSAGE value="create reducer" />
+    <MESSAGE value="add spinner" />
+    <MESSAGE value="change codes" />
+    <MESSAGE value="add workspaces" />
+    <MESSAGE value="add redux" />
+    <MESSAGE value="remove some codes" />
+    <MESSAGE value="add news images" />
+    <MESSAGE value="done NewsList" />
+    <MESSAGE value="add NewsListItem.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add NewsListItem.js" />
   </component>
 </project>
