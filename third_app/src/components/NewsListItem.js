@@ -22,7 +22,7 @@ function NewsListItem({name,description,category}) {
         <h3 className="card-title">{name}</h3>
         <p className="card-text">{description}</p>
       </div>
-      <span className="position-absolute top-0 start-100 translate-middle badge border rounded-pill bg-light">
+      <span className="position-absolute top-0 end-90 translate-middle badge border rounded-pill bg-light">
         <button type="button" className="btn-close" aria-label="Close"></button>
       </span>
       <img
