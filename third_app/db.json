@@ -7,10 +7,16 @@
       "category": "Sport News"
     },
     {
-      "id": "9f0314d6-8c04-4975-9a01-656c479ec7b7",
-      "name": "bobur",
-      "description": "ziyodullayev",
-      "category": ""
+      "id": "7b3c9e00-b561-4a81-91c1-08cf910c9553",
+      "name": "Assalamu alaykum",
+      "description": "Redux",
+      "category": "Hot News"
+    },
+    {
+      "id": "50c35beb-383b-4fc7-a7f2-4e4620e985db",
+      "name": "guvalakat1603@gmail",
+      "description": "my email",
+      "category": "World News"
     }
   ],
   "filters": [
