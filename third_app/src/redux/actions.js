@@ -49,3 +49,10 @@ export const activeFilteredChanged = (filter) => {
     payload: filter
   }
 }
+
+export const newsDeleted = (id) => {
+  return {
+    type: "NEWS_DELETED",
+    payload: id
+  }
+}

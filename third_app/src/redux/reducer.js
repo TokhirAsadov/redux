@@ -29,7 +29,8 @@ const reducer = (state = initialState,action) => {
       const newsCreatedNewsList = [...state.news,action.payload];
       return {
         ...state,
-        news: newsCreatedNewsList
+        news: newsCreatedNewsList,
+        filteredNews: state.activeFilter === "all" ? newsCreatedNewsList : newsCreatedNewsList.filter(s => s.category === state.activeFilter)
       }
     case "FILTERS_FETCHING":
       return {
@@ -53,6 +54,14 @@ const reducer = (state = initialState,action) => {
         ...state,
         activeFilter: action.payload,
         filteredNews: action.payload === "all" ? state.news : state.news.filter(s => s.category === action.payload)
+      }
+    }
+    case "NEWS_DELETED":{
+      const newNewsList = state.news.filter(s => s.id !== action.payload);
+      return {
+        ...state,
+        news: newNewsList,
+        filteredNews: state.activeFilter === "all" ? newNewsList : newNewsList.filter(s => s.category === state.activeFilter)
       }
     }
     default:
