@@ -23,7 +23,18 @@
       "name": "OK 4",
       "description": "Агар ер сингари ишлаб чиқариш воситалари хусусий қўлларда бўлмаса, катта эҳтимол билан улар самарасиз ишлатилади.",
       "category": "World News"
+    },
+    {
+      "id": "7662b8c0-d319-4c57-8dd1-29be2c08d5c6",
+      "name": "asadov",
+      "description": "tohir",
+      "category": "Sport News"
     }
   ],
-  "filters": ["all","hot","sport","world"]
+  "filters": [
+    "all",
+    "hot",
+    "sport",
+    "world"
+  ]
 }
