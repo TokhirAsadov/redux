@@ -1,7 +1,7 @@
 import React from 'react';
 import Error from "./error/Error";
 
-function NewsListItem({name,description,category}) {
+function NewsListItem({name,description,category,onDelete}) {
   let elementClassName;
   switch (category){
     case "Hot News":
@@ -23,7 +23,7 @@ function NewsListItem({name,description,category}) {
         <p className="card-text">{description}</p>
       </div>
       <span className="position-absolute top-0 end-90 translate-middle badge border rounded-pill bg-light">
-        <button type="button" className="btn-close" aria-label="Close"></button>
+        <button onClick={onDelete} type="button" className="btn-close" aria-label="Close"></button>
       </span>
       <img
         src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D"

@@ -1,34 +1,16 @@
 {
   "news": [
     {
-      "id": 1,
-      "name": "OK 1",
-      "description": "Россия президенти Эронга йўл олди - бу унинг феврал ойи охирида Украинага босқин бошлашидан буён иккинчи хорижий ташрифи бўлади.",
-      "category": "Hot News"
-    },
-    {
-      "id": 2,
-      "name": "Football News",
-      "description": "Man Utd beat Crystal Palace 3-1 in Australia",
-      "category": "Sport News"
-    },
-    {
-      "id": 3,
-      "name": "OK 3",
-      "description": "England head coach Sarina Wiegman previews Euro 2022 quarter-final against Spain",
-      "category": "Sport News"
-    },
-    {
-      "id": 4,
-      "name": "OK 4",
-      "description": "Агар ер сингари ишлаб чиқариш воситалари хусусий қўлларда бўлмаса, катта эҳтимол билан улар самарасиз ишлатилади.",
-      "category": "World News"
-    },
-    {
       "id": "7662b8c0-d319-4c57-8dd1-29be2c08d5c6",
       "name": "asadov",
       "description": "tohir",
       "category": "Sport News"
+    },
+    {
+      "id": "9f0314d6-8c04-4975-9a01-656c479ec7b7",
+      "name": "bobur",
+      "description": "ziyodullayev",
+      "category": ""
     }
   ],
   "filters": [

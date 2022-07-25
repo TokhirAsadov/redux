@@ -10,8 +10,7 @@ function NewsAddForm(props) {
   const [name,setName] = useState("");
   const [description,setDescription] = useState("");
   const [category, setCategory] = useState("");
-
-  const { newsLoadingStatus,filters } = useSelector(state=>state);
+  const {filters,filterLoadingStatus} = useSelector(state => state);
   const dispatch = useDispatch();
   const { request } = useHttp();
 
@@ -23,7 +22,6 @@ function NewsAddForm(props) {
       description,
       category
     }
-
     request("http://localhost:3001/news","POST",JSON.stringify(newNews))
       .then(res => console.log(res))
       .then(dispatch(newsCreated(newNews)))
@@ -32,6 +30,22 @@ function NewsAddForm(props) {
     setName("");
     setCategory("");
     setDescription("");
+  }
+
+  const renderFilters = (filters,status) => {
+    if (status === "loading"){
+      return <option>Loading options</option>
+    }
+    else if (status === "error"){
+      return <option>Error options</option>
+    }
+
+    if (filters?.length>0){
+      return filters.map(({name,label})=>{
+        if (name === "all") return;
+        return <option key={name} value={name}>{label}</option>
+      })
+    }
   }
 
   return (
@@ -71,10 +85,8 @@ function NewsAddForm(props) {
           value={category}
           onChange={e=>setCategory(e.target.value)}
         >
-          <option>News about...</option>
-          <option value="Hot News">Hot News</option>
-          <option value="Sport News">Sport News</option>
-          <option value="World News">World News</option>
+          <option>Category of News...</option>
+          {renderFilters(filters,filterLoadingStatus)}
         </select>
       </div>
       <button className="btn btn-dark text-white w-100 shadow-lg">Create News</button>
