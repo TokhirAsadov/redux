@@ -9,7 +9,15 @@ import { CSSTransition,TransitionGroup } from "react-transition-group";
 import './style/transition.css'
 
 function NewsList(props) {
-  const {filterLoadingStatus,filteredNews} = useSelector(state => state)
+  const filteredNews = useSelector(state => {
+    if (state.activeFilter === "all"){
+      return state.news
+    }
+    else {
+      return state.news.filter(s => s.category === state.activeFilter)
+    }
+  });
+  const filterLoadingStatus = useSelector(state => state.filterLoadingStatus)
   const dispatch = useDispatch();
   const { request } = useHttp();
   console.log(filterLoadingStatus)
@@ -37,7 +45,11 @@ function NewsList(props) {
 
   const renderNewsList = (arr) => {
     if (arr?.length===0){
-      return <h4 className="text-center mt-5">News does not exist</h4>
+      return (
+        <CSSTransition timeout={400} classNames="item">
+          <h4 className="text-center mt-5">News does not exist</h4>
+        </CSSTransition>
+      )
     }
     return arr.map(({id,...props}) => {
       return (

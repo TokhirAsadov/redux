@@ -4,7 +4,6 @@ const initialState = {
   filters: [],
   filterLoadingStatus: "tohir",
   activeFilter: "all",
-  filteredNews: []
 }
 const reducer = (state = initialState,action) => {
   switch (action.type){
@@ -18,7 +17,6 @@ const reducer = (state = initialState,action) => {
         ...state,
         news: action.payload,
         newsLoadingStatus: "tohir",
-        filteredNews: state.activeFilter === "all" ? action.payload : action.payload.filter(s=>s.category === state.activeFilter)
       }
     case "NEWS_FETCHING_ERROR":
       return {
@@ -26,11 +24,9 @@ const reducer = (state = initialState,action) => {
         newsLoadingStatus: 'error'
       }
     case "NEWS_CREATED":
-      const newsCreatedNewsList = [...state.news,action.payload];
       return {
         ...state,
-        news: newsCreatedNewsList,
-        filteredNews: state.activeFilter === "all" ? newsCreatedNewsList : newsCreatedNewsList.filter(s => s.category === state.activeFilter)
+        news: [...state.news,action.payload],
       }
     case "FILTERS_FETCHING":
       return {
@@ -53,7 +49,6 @@ const reducer = (state = initialState,action) => {
       return {
         ...state,
         activeFilter: action.payload,
-        filteredNews: action.payload === "all" ? state.news : state.news.filter(s => s.category === action.payload)
       }
     }
     case "NEWS_DELETED":{
@@ -61,7 +56,6 @@ const reducer = (state = initialState,action) => {
       return {
         ...state,
         news: newNewsList,
-        filteredNews: state.activeFilter === "all" ? newNewsList : newNewsList.filter(s => s.category === state.activeFilter)
       }
     }
     default:

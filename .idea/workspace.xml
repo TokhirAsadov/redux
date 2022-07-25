@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="finished successfully">
-      <change afterPath="$PROJECT_DIR$/third_app/src/components/style/transition.css" afterDir="false" />
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add items">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <workItem from="1658495301028" duration="5438000" />
       <workItem from="1658585206714" duration="1266000" />
       <workItem from="1658672570320" duration="129000" />
-      <workItem from="1658749986297" duration="14380000" />
+      <workItem from="1658749986297" duration="15828000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
@@ -391,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658783437321</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add transition group dependency.&#10;add animations">
+      <created>1658785274700</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1658785274700</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add items">
+      <created>1658785288797</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1658785288797</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,8 +421,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;start&quot;: &quot;concurrently \&quot;react-scripts start\&quot; \&quot;npx json-server db.json --port 3001\&quot; &quot;," />
-    <MESSAGE value="add components" />
     <MESSAGE value="create hook" />
     <MESSAGE value="add dependencies" />
     <MESSAGE value="error page 404" />
@@ -435,6 +444,8 @@
     <MESSAGE value="finished filters successfully" />
     <MESSAGE value="add NEWS_DELETED method and action" />
     <MESSAGE value="finished successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished successfully" />
+    <MESSAGE value="add transition group dependency.&#10;add animations" />
+    <MESSAGE value="add items" />
+    <option name="LAST_COMMIT_MESSAGE" value="add items" />
   </component>
 </project>
