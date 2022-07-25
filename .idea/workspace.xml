@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add styles">
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add news item">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsAddForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsAddForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsFilter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third_app/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third_app/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/reducer.js" afterDir="false" />
     </list>
@@ -86,7 +87,7 @@
       <workItem from="1658495301028" duration="5438000" />
       <workItem from="1658585206714" duration="1266000" />
       <workItem from="1658672570320" duration="129000" />
-      <workItem from="1658749986297" duration="1762000" />
+      <workItem from="1658749986297" duration="8294000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
@@ -340,7 +341,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658672676696</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add item function created successfully">
+      <created>1658752058990</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1658752058990</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add news action and reducer">
+      <created>1658752093044</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1658752093044</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add news item">
+      <created>1658752103275</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1658752103275</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,9 +381,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="use connect function" />
-    <MESSAGE value="use connect for functional component" />
-    <MESSAGE value="use connect for class component" />
     <MESSAGE value="use useSelector and useDispatch" />
     <MESSAGE value="add window.__REDUX_DEVTOOLS_EXTENSION__ &amp;&amp; window.__REDUX_DEVTOOLS_EXTENSION__() redux devtools" />
     <MESSAGE value="Bismillah,&#10;Started third app" />
@@ -384,6 +403,9 @@
     <MESSAGE value="done styles" />
     <MESSAGE value="change codes" />
     <MESSAGE value="add styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add styles" />
+    <MESSAGE value="add item function created successfully" />
+    <MESSAGE value="add news action and reducer" />
+    <MESSAGE value="add news item" />
+    <option name="LAST_COMMIT_MESSAGE" value="add news item" />
   </component>
 </project>
