@@ -1,12 +1,6 @@
 {
   "news": [
     {
-      "id": "7662b8c0-d319-4c57-8dd1-29be2c08d5c6",
-      "name": "asadov",
-      "description": "tohir",
-      "category": "Sport News"
-    },
-    {
       "id": "7b3c9e00-b561-4a81-91c1-08cf910c9553",
       "name": "Assalamu alaykum",
       "description": "Redux",
@@ -17,6 +11,12 @@
       "name": "guvalakat1603@gmail",
       "description": "my email",
       "category": "World News"
+    },
+    {
+      "id": "ecb05435-fae3-4d4f-af0b-839002969456",
+      "name": "asadov",
+      "description": "tohir",
+      "category": "Sport News"
     }
   ],
   "filters": [

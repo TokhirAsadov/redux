@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add items">
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="fixed and beautiful codes">
+      <change afterPath="$PROJECT_DIR$/third_app/src/redux/reducers/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_app/src/redux/reducers/news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsAddForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsAddForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsFilter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -85,7 +91,7 @@
       <workItem from="1658495301028" duration="5438000" />
       <workItem from="1658585206714" duration="1266000" />
       <workItem from="1658672570320" duration="129000" />
-      <workItem from="1658749986297" duration="15828000" />
+      <workItem from="1658749986297" duration="17262000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
@@ -402,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658785288797</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="fixed and beautiful codes">
+      <created>1658787066242</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1658787066242</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +434,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create hook" />
     <MESSAGE value="add dependencies" />
     <MESSAGE value="error page 404" />
     <MESSAGE value="change data" />
@@ -446,6 +458,7 @@
     <MESSAGE value="finished successfully" />
     <MESSAGE value="add transition group dependency.&#10;add animations" />
     <MESSAGE value="add items" />
-    <option name="LAST_COMMIT_MESSAGE" value="add items" />
+    <MESSAGE value="fixed and beautiful codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed and beautiful codes" />
   </component>
 </project>

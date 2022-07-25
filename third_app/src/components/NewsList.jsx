@@ -6,18 +6,36 @@ import Spinner from "./Spinner"
 import Error from "./error/Error";
 import NewsListItem from "./NewsListItem";
 import { CSSTransition,TransitionGroup } from "react-transition-group";
+import {createSelector} from 'reselect'
 import './style/transition.css'
 
 function NewsList(props) {
-  const filteredNews = useSelector(state => {
-    if (state.activeFilter === "all"){
-      return state.news
+  const filteredNewsSelected = createSelector(
+    (state) => state.filter.activeFilter,
+    (state) => state.news.news,
+    (filter,news) =>{
+      if (filter === "all"){
+        console.log("render")
+        return news
+      }
+      else {
+        return news.filter(s => s.category === filter)
+      }
     }
-    else {
-      return state.news.filter(s => s.category === state.activeFilter)
-    }
-  });
-  const filterLoadingStatus = useSelector(state => state.filterLoadingStatus)
+  )
+
+  // const filteredNews = useSelector(state => {
+  //   if (state.filter.activeFilter === "all"){
+  //     return state.news.news
+  //   }
+  //   else {
+  //     return state.news.news.filter(s => s.category === state.filter.activeFilter)
+  //   }
+  // });
+
+  const filteredNews = useSelector(filteredNewsSelected);
+
+  const filterLoadingStatus = useSelector(state => state.filter.filterLoadingStatus)
   const dispatch = useDispatch();
   const { request } = useHttp();
   console.log(filterLoadingStatus)
@@ -28,7 +46,6 @@ function NewsList(props) {
       .then(data => dispatch(newsFetched(data)))
       .catch(()=> dispatch(newsFetchingError()))
   },[]);
-
 
   const onDeleted = useCallback((id) => {
     request(`http://localhost:3001/news/${id}`,"DELETE")

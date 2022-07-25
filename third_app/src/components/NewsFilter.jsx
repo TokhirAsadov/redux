@@ -8,7 +8,7 @@ import {filtersFetchingError, filtersFetched, filtersFetching, activeFilteredCha
 import Error from "./error/Error";
 
 function NewsFilter(props) {
-  const {filters,filterLoadingStatus,activeFilter} = useSelector(state=>state);
+  const {filters,filterLoadingStatus,activeFilter} = useSelector(state=>state.filter);
   const dispatch = useDispatch();
   const { request } = useHttp();
 
