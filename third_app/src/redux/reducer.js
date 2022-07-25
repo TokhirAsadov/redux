@@ -16,7 +16,7 @@ const reducer = (state = initialState,action) => {
     case "NEWS_FETCHED":
       return {
         ...state,
-        // news: action.payload,
+        news: action.payload,
         newsLoadingStatus: "tohir",
         filteredNews: state.activeFilter === "all" ? action.payload : action.payload.filter(s=>s.category === state.activeFilter)
       }

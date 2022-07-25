@@ -38,17 +38,17 @@
       "className": "btn-outline-dark"
     },
     {
-      "name": "hot",
+      "name": "Hot News",
       "label": "Hot News",
       "className": "btn-outline-danger"
     },
     {
-      "name": "sport",
+      "name": "Sport News",
       "label": "Sport News",
       "className": "btn-outline-primary"
     },
     {
-      "name": "world",
+      "name": "World News",
       "label": "World News",
       "className": "btn-outline-secondary"
     }

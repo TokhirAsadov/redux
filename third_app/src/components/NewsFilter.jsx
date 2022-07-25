@@ -16,7 +16,7 @@ function NewsFilter(props) {
     dispatch(filtersFetching());
     request("http://localhost:3001/filters")
       .then(data => dispatch(filtersFetched(data)))
-      .catch(err => console.log(err))
+      .catch(err => filtersFetchingError(err))
     //eslint-disable-next-line
   },[])
 

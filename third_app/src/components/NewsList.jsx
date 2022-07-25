@@ -7,10 +7,10 @@ import Error from "./error/Error";
 import NewsListItem from "./NewsListItem";
 
 function NewsList(props) {
-  const {news,newsLoadingStatus} = useSelector(state => state)
+  const {filterLoadingStatus,filteredNews} = useSelector(state => state)
   const dispatch = useDispatch();
   const { request } = useHttp();
-  console.log(newsLoadingStatus)
+  console.log(filterLoadingStatus)
 
   useEffect(()=>{
     dispatch(newsFetching())
@@ -19,14 +19,14 @@ function NewsList(props) {
       .catch(()=> dispatch(newsFetchingError()))
   },[]);
 
-  if (newsLoadingStatus === 'loading'){
+  if (filterLoadingStatus === 'loading'){
     return <Spinner />
-  }else if (newsLoadingStatus === 'error'){
+  }else if (filterLoadingStatus === 'error'){
     return <Error />
   }
 
   const renderNewsList = (arr) => {
-    if (!arr){
+    if (arr?.length===0){
       return <h4 className="text-center mt-5">News does not exist</h4>
     }
     return arr.map(({id,...props}) => {
@@ -34,7 +34,7 @@ function NewsList(props) {
     })
   }
 
-  const element = renderNewsList(news);
+  const element = renderNewsList(filteredNews);
 
   return(
     <ul>{element}</ul>
