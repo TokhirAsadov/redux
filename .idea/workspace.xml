@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add reselect dependency">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add enhancer">
       <change beforePath="$PROJECT_DIR$/third_app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,7 @@
       <workItem from="1658672570320" duration="129000" />
       <workItem from="1658749986297" duration="19559000" />
       <workItem from="1658854483577" duration="32000" />
-      <workItem from="1658930185815" duration="325000" />
+      <workItem from="1658930185815" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
@@ -424,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658788829555</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="add enhancer">
+      <created>1658930650986</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1658930650986</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +449,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change data" />
     <MESSAGE value="create actions" />
     <MESSAGE value="create reducer" />
     <MESSAGE value="add spinner" />
@@ -468,6 +473,7 @@
     <MESSAGE value="fixed and beautiful codes" />
     <MESSAGE value="add reselect dependency and used it" />
     <MESSAGE value="add reselect dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="add reselect dependency" />
+    <MESSAGE value="add enhancer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add enhancer" />
   </component>
 </project>
