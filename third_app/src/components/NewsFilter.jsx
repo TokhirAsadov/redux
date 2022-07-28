@@ -4,7 +4,13 @@ import {useDispatch,useSelector} from "react-redux";
 import {useHttp} from "../hook/useHttp";
 import Spinner from "./Spinner";
 import classNames from "classnames";
-import {filtersFetchingError, filtersFetched, filtersFetching, activeFilteredChanged} from "../redux/actions";
+import {
+  filtersFetchingError,
+  filtersFetched,
+  filtersFetching,
+  activeFilteredChanged,
+  fetchFilter
+} from "../redux/actions";
 import Error from "./error/Error";
 
 function NewsFilter(props) {
@@ -13,10 +19,11 @@ function NewsFilter(props) {
   const { request } = useHttp();
 
   useEffect(()=>{
-    dispatch(filtersFetching());
-    request("http://localhost:3001/filters")
-      .then(data => dispatch(filtersFetched(data)))
-      .catch(err => filtersFetchingError(err))
+    fetchFilter(request) // redux-thunk
+    // dispatch(filtersFetching());
+    // request("http://localhost:3001/filters")
+    //   .then(data => dispatch(filtersFetched(data)))
+    //   .catch(err => filtersFetchingError(err))
     //eslint-disable-next-line
   },[])
 

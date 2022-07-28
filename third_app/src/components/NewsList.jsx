@@ -1,7 +1,7 @@
 import {useEffect,useCallback} from "react";
 import {useHttp} from "../hook/useHttp";
 import {useSelector,useDispatch} from "react-redux";
-import {newsFetching, newsFetched, newsFetchingError, newsDeleted} from "../redux/actions";
+import {fetchDelete, fetchNews, newsDeleted} from "../redux/actions";
 import Spinner from "./Spinner"
 import Error from "./error/Error";
 import NewsListItem from "./NewsListItem";
@@ -15,7 +15,6 @@ function NewsList(props) {
     (state) => state.news.news,
     (filter,news) =>{
       if (filter === "all"){
-        console.log("render")
         return news
       }
       else {
@@ -41,19 +40,21 @@ function NewsList(props) {
   console.log(filterLoadingStatus)
 
   useEffect(()=>{
-    dispatch(newsFetching) // 3-usul redux-thunk
-    // dispatch("NEWS_FETCHING") 2-usul
-    // dispatch(newsFetching()) 1-usul
-    request("http://localhost:3001/news")
-      .then(data => dispatch(newsFetched(data)))
-      .catch(()=> dispatch(newsFetchingError()))
+    dispatch(fetchNews(request));
+    // dispatch(newsFetching) // 3-usul redux-thunk
+    // // dispatch("NEWS_FETCHING") 2-usul
+    // // dispatch(newsFetching()) 1-usul
+    // request("http://localhost:3001/news")
+    //   .then(data => dispatch(newsFetched(data)))
+    //   .catch(()=> dispatch(newsFetchingError()))
   },[]);
 
   const onDeleted = useCallback((id) => {
-    request(`http://localhost:3001/news/${id}`,"DELETE")
-      .then(data => console.log(data+" deleted"))
-      .then(dispatch(newsDeleted(id)))
-      .catch(err=>console.log(err))
+    dispatch(fetchDelete(request,id));// redux-thunk
+    // request(`http://localhost:3001/news/${id}`,"DELETE")
+    //   .then(data => console.log(data+" deleted"))
+    //   .then(dispatch(newsDeleted(id)))
+    //   .catch(err=>console.log(err))
   },[])
 
   if (filterLoadingStatus === 'loading'){

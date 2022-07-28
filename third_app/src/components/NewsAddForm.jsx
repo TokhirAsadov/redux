@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useHttp } from "../hook/useHttp";
 import { useSelector,useDispatch } from "react-redux";
 import {v4} from 'uuid';
-import {newsCreated} from "../redux/actions";
+import {fetchNewsAdd, newsCreated} from "../redux/actions";
 import {logDOM} from "@testing-library/react";
 
 function NewsAddForm(props) {
@@ -22,10 +22,11 @@ function NewsAddForm(props) {
       description,
       category
     }
-    request("http://localhost:3001/news","POST",JSON.stringify(newNews))
-      .then(res => console.log(res))
-      .then(dispatch(newsCreated(newNews)))
-      .catch(err => console.log(err))
+    dispatch(fetchNewsAdd(request,newNews));// redux-thunk
+    //request("http://localhost:3001/news","POST",JSON.stringify(newNews))
+    //       .then(res => console.log(res))
+    //       .then(dispatch(newsCreated(newNews)))
+    //       .catch(err => console.log(err))
 
     setName("");
     setCategory("");
