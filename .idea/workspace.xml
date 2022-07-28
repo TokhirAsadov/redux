@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add enhancer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third_app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +90,9 @@
       <workItem from="1658749986297" duration="19559000" />
       <workItem from="1658854483577" duration="32000" />
       <workItem from="1658930185815" duration="631000" />
+      <workItem from="1658932902561" duration="764000" />
+      <workItem from="1658939852467" duration="8000" />
+      <workItem from="1658968784779" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="Bismillah&#10;Second studying">
       <created>1656934926608</created>
