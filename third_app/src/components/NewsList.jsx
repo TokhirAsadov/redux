@@ -41,7 +41,9 @@ function NewsList(props) {
   console.log(filterLoadingStatus)
 
   useEffect(()=>{
-    dispatch(newsFetching())
+    dispatch(newsFetching) // 3-usul redux-thunk
+    // dispatch("NEWS_FETCHING") 2-usul
+    // dispatch(newsFetching()) 1-usul
     request("http://localhost:3001/news")
       .then(data => dispatch(newsFetched(data)))
       .catch(()=> dispatch(newsFetchingError()))
