@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use redux-thunk dependency">
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use redux-thunk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/actions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +88,7 @@
       <workItem from="1658930185815" duration="631000" />
       <workItem from="1658932902561" duration="764000" />
       <workItem from="1658939852467" duration="8000" />
-      <workItem from="1658968784779" duration="1668000" />
-    </task>
-    <task id="LOCAL-00003" summary="don`t use react">
-      <created>1656936272153</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1656936272153</updated>
+      <workItem from="1658968784779" duration="2516000" />
     </task>
     <task id="LOCAL-00004" summary="add redux and react-redux">
       <created>1656936286041</created>
@@ -435,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658969237165</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="use redux-thunk">
+      <created>1658970785630</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1658970785630</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +452,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add spinner" />
     <MESSAGE value="add workspaces" />
     <MESSAGE value="add redux" />
     <MESSAGE value="remove some codes" />
@@ -479,6 +476,7 @@
     <MESSAGE value="add enhancer" />
     <MESSAGE value="add redux-thunk dependency" />
     <MESSAGE value="use redux-thunk dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="use redux-thunk dependency" />
+    <MESSAGE value="use redux-thunk" />
+    <option name="LAST_COMMIT_MESSAGE" value="use redux-thunk" />
   </component>
 </project>
