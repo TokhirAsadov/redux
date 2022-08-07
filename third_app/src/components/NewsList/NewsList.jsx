@@ -1,10 +1,11 @@
 import {useEffect,useCallback} from "react";
 import {useHttp} from "../../hook/useHttp";
 import {useSelector,useDispatch} from "react-redux";
-import {fetchDelete, fetchNews} from "../../redux/actions";
+import {fetchDelete} from "../../redux/actions";
 import Spinner from "../Spinner"
 import Error from "../error/Error";
 import NewsListItem from "../NewsListItem";
+import {fetchNews} from "./news_slice";
 import { CSSTransition,TransitionGroup } from "react-transition-group";
 import {createSelector} from 'reselect'
 import '../style/transition.css'
@@ -40,7 +41,7 @@ function NewsList(props) {
   console.log(filterLoadingStatus)
 
   useEffect(()=>{
-    dispatch(fetchNews(request));
+    dispatch(fetchNews());
     // dispatch(newsFetching) // 3-usul redux-thunk
     // // dispatch("NEWS_FETCHING") 2-usul
     // // dispatch(newsFetching()) 1-usul

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use createSlice function from redux-toolkit">
-      <change afterPath="$PROJECT_DIR$/third_app/src/components/NewsFilter/filter_slice.js" afterDir="false" />
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use redux-toolkit for filter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsFilter/NewsFilter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/redux/reducers/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/reducers/filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsList/NewsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsList/NewsList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsList/news_slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsList/news_slice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/hook/useHttp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/hook/useHttp.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +97,7 @@
       <workItem from="1659015796381" duration="36000" />
       <workItem from="1659140303325" duration="68000" />
       <workItem from="1659860553662" duration="2762000" />
-      <workItem from="1659888259959" duration="9487000" />
-    </task>
-    <task id="LOCAL-00013" summary="add window.__REDUX_DEVTOOLS_EXTENSION__ &amp;&amp; window.__REDUX_DEVTOOLS_EXTENSION__() redux devtools">
-      <created>1658232535017</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1658232535018</updated>
+      <workItem from="1659888259959" duration="11245000" />
     </task>
     <task id="LOCAL-00014" summary="add window.__REDUX_DEVTOOLS_EXTENSION__ &amp;&amp; window.__REDUX_DEVTOOLS_EXTENSION__() redux devtools">
       <created>1658233011061</created>
@@ -445,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659904133084</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="use redux-toolkit for filter">
+      <created>1659905512763</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1659905512763</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +461,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add styles" />
     <MESSAGE value="add item function created successfully" />
     <MESSAGE value="add news action and reducer" />
     <MESSAGE value="add news item" />
@@ -489,6 +485,7 @@
     <MESSAGE value="use createReducer function from redux-toolkit" />
     <MESSAGE value="use createReducer function from redux-toolkit second view" />
     <MESSAGE value="use createSlice function from redux-toolkit" />
-    <option name="LAST_COMMIT_MESSAGE" value="use createSlice function from redux-toolkit" />
+    <MESSAGE value="use redux-toolkit for filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="use redux-toolkit for filter" />
   </component>
 </project>
