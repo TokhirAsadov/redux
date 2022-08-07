@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import NewsList from "./NewsList";
+import NewsList from "./NewsList/NewsList";
 import NewsAddForm from "./NewsAddForm";
 import NewsFilter from "./NewsFilter";
 
