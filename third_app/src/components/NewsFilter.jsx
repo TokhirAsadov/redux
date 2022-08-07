@@ -19,7 +19,7 @@ function NewsFilter(props) {
   const { request } = useHttp();
 
   useEffect(()=>{
-    fetchFilter(request) // redux-thunk
+    dispatch(fetchFilter(request)) // redux-thunk
     // dispatch(filtersFetching());
     // request("http://localhost:3001/filters")
     //   .then(data => dispatch(filtersFetched(data)))
