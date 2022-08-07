@@ -1,25 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {createStore, combineReducers, compose, applyMiddleware} from "redux";
-import ReduxThunk from 'redux-thunk'
 import {Provider} from "react-redux";
 import App from './components/App';
-import news from "./redux/reducers/news"
-import filter from "./redux/reducers/filter"
 import './index.scss'
-
-const stringMiddleware = () => (next) => (action) => {// next === dispatch <---- middleware enhancer ni ham aptimallawtirib kodlarimizni qisqartirib beradi
-  if (typeof action === "string"){
-    return next({type: action})
-  }
-  return next(action)
-}
+import {store} from "./redux/store";
 
 
-const store = createStore(
-  combineReducers({news, filter}),
-  compose(applyMiddleware(ReduxThunk,stringMiddleware),window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
-);
 
 // const enhancer = (creteStore) => (...args) => { // store ni kuchaytirib beradi. bunda actionlarni funksiyalarini caqiriw bn birga type larni uzini beriw yuli bn ham funksiyalarni caqiriwimiz mumkin
 //   const store = creteStore(...args);
