@@ -1,5 +1,6 @@
 import { createAction } from "@reduxjs/toolkit";
 import {newsFetching,newsFetched,newsFetchingError,newsCreated,newsDeleted} from '../components/NewsList/news_slice'
+import {filtersFetching,filtersFetched,filtersFetchingError} from "../components/NewsFilter/filter_slice"
 
 
 export const fetchFilter = (request) => (dispatch) => {
@@ -28,10 +29,10 @@ export const fetchDelete = (request,id) => (dispatch) => {
 }
 
 
-export const filtersFetching = createAction("FILTERS_FETCHING");
-export const filtersFetched = createAction("FILTERS_FETCHED");
-export const filtersFetchingError = createAction("FILTERS_FETCHING_ERROR");
-export const activeFilteredChanged = createAction("ACTIVE_FILTER_CHANGED");
+// export const filtersFetching = createAction("FILTERS_FETCHING");
+// export const filtersFetched = createAction("FILTERS_FETCHED");
+// export const filtersFetchingError = createAction("FILTERS_FETCHING_ERROR");
+// export const activeFilteredChanged = createAction("ACTIVE_FILTER_CHANGED");
 
 
 

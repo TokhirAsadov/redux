@@ -1,17 +1,12 @@
 import React from 'react';
 import {useEffect} from "react";
 import {useDispatch,useSelector} from "react-redux";
-import {useHttp} from "../hook/useHttp";
-import Spinner from "./Spinner";
+import {useHttp} from "../../hook/useHttp";
+import Spinner from "../Spinner";
 import classNames from "classnames";
-import {
-  filtersFetchingError,
-  filtersFetched,
-  filtersFetching,
-  activeFilteredChanged,
-  fetchFilter
-} from "../redux/actions";
-import Error from "./error/Error";
+import Error from "../error/Error";
+import { activeFilteredChanged } from "./filter_slice";
+import { fetchFilter } from "../../redux/actions";
 
 function NewsFilter(props) {
   const {filters,filterLoadingStatus,activeFilter} = useSelector(state=>state.filter);
