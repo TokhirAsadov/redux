@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="add redux-toolkit dependency">
-      <change afterPath="$PROJECT_DIR$/third_app/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="fixed filter">
       <change beforePath="$PROJECT_DIR$/third_app/src/components/NewsFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/components/NewsFilter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,21 +91,7 @@
       <workItem from="1658968784779" duration="3552000" />
       <workItem from="1659015796381" duration="36000" />
       <workItem from="1659140303325" duration="68000" />
-      <workItem from="1659860553662" duration="1464000" />
-    </task>
-    <task id="LOCAL-00005" summary="used payload">
-      <created>1656938163744</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1656938163744</updated>
-    </task>
-    <task id="LOCAL-00006" summary="use actions and reducer">
-      <created>1658140538264</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1658140538264</updated>
+      <workItem from="1659860553662" duration="1910000" />
     </task>
     <task id="LOCAL-00007" summary="use bindActionCreators and functions">
       <created>1658140567997</created>
@@ -439,7 +422,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658971557841</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="use redux-toolkit">
+      <created>1659862451748</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1659862451749</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fixed filter">
+      <created>1659862475491</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1659862475491</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,8 +455,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add redux" />
-    <MESSAGE value="remove some codes" />
     <MESSAGE value="add news images" />
     <MESSAGE value="done NewsList" />
     <MESSAGE value="add NewsListItem.js" />
@@ -483,6 +478,8 @@
     <MESSAGE value="use redux-thunk dependency" />
     <MESSAGE value="use redux-thunk" />
     <MESSAGE value="add redux-toolkit dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redux-toolkit dependency" />
+    <MESSAGE value="use redux-toolkit" />
+    <MESSAGE value="fixed filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed filter" />
   </component>
 </project>

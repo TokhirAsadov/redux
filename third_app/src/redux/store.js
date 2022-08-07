@@ -3,13 +3,8 @@ import { configureStore } from "@reduxjs/toolkit";
 import ReduxThunk from "redux-thunk";
 import news from "./reducers/news";
 import filter from "./reducers/filter";
+import stringMiddleware from "./middleware/stringMiddleware";
 
-const stringMiddleware = () => (next) => (action) => {// next === dispatch <---- middleware enhancer ni ham aptimallawtirib kodlarimizni qisqartirib beradi
-  if (typeof action === "string"){
-    return next({type: action})
-  }
-  return next(action)
-}
 
 export const store = configureStore({// redux-toolkit
   reducer: { news,filter },
