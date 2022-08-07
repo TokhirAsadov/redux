@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="separately middleware">
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use createAction function from redux-toolkit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_app/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_app/src/redux/reducers/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/reducers/news.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +93,7 @@
       <workItem from="1659015796381" duration="36000" />
       <workItem from="1659140303325" duration="68000" />
       <workItem from="1659860553662" duration="2762000" />
-      <workItem from="1659888259959" duration="408000" />
-    </task>
-    <task id="LOCAL-00008" summary="use bindActionCreators and functions">
-      <created>1658154015002</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1658154015002</updated>
+      <workItem from="1659888259959" duration="3496000" />
     </task>
     <task id="LOCAL-00009" summary="use connect function">
       <created>1658157332825</created>
@@ -438,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659862730067</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="use createAction function from redux-toolkit">
+      <created>1659889114498</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1659889114498</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +457,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done NewsList" />
     <MESSAGE value="add NewsListItem.js" />
     <MESSAGE value="done styles" />
     <MESSAGE value="change codes" />
@@ -482,6 +481,7 @@
     <MESSAGE value="use redux-toolkit" />
     <MESSAGE value="fixed filter" />
     <MESSAGE value="separately middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="separately middleware" />
+    <MESSAGE value="use createAction function from redux-toolkit" />
+    <option name="LAST_COMMIT_MESSAGE" value="use createAction function from redux-toolkit" />
   </component>
 </project>
