@@ -6,7 +6,7 @@ const initialState = {
   newsLoadingStatus: "tohir",
 }
 
-const news = createReducer(initialState,{
+const news = createReducer(initialState,{// redux-toolkit 2-view
   [newsFetching]: state => {state.newsLoadingStatus = 'loading'},
   [newsFetched]: (state,action) => {
       state.newsLoadingStatus = 'tohir';
@@ -17,7 +17,7 @@ const news = createReducer(initialState,{
   [newsDeleted]: (state,action) => {state.news = state.news.filter(s => s.id !== action.payload)}
 },[],state =>state)
 
-// const news = createReducer(initialState, builder => {
+// const news = createReducer(initialState, builder => { // redux-toolkit 1-view
 //   builder
 //     .addCase(newsFetching,(state) => {state.newsLoadingStatus = 'loading';})
 //     .addCase(newsFetched,(state,action) => {
