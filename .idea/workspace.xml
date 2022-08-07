@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use createAction function from redux-toolkit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9f806ea1-4923-4a8f-82dd-53b7800a2837" name="Default Changelist" comment="use createReducer function from redux-toolkit">
       <change beforePath="$PROJECT_DIR$/third_app/src/redux/reducers/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/third_app/src/redux/reducers/news.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,14 +92,7 @@
       <workItem from="1659015796381" duration="36000" />
       <workItem from="1659140303325" duration="68000" />
       <workItem from="1659860553662" duration="2762000" />
-      <workItem from="1659888259959" duration="3496000" />
-    </task>
-    <task id="LOCAL-00009" summary="use connect function">
-      <created>1658157332825</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1658157332825</updated>
+      <workItem from="1659888259959" duration="4044000" />
     </task>
     <task id="LOCAL-00010" summary="use connect for functional component">
       <created>1658157460063</created>
@@ -438,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659889114498</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="use createReducer function from redux-toolkit">
+      <created>1659892205193</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1659892205193</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +456,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add NewsListItem.js" />
     <MESSAGE value="done styles" />
     <MESSAGE value="change codes" />
     <MESSAGE value="add styles" />
@@ -482,6 +480,7 @@
     <MESSAGE value="fixed filter" />
     <MESSAGE value="separately middleware" />
     <MESSAGE value="use createAction function from redux-toolkit" />
-    <option name="LAST_COMMIT_MESSAGE" value="use createAction function from redux-toolkit" />
+    <MESSAGE value="use createReducer function from redux-toolkit" />
+    <option name="LAST_COMMIT_MESSAGE" value="use createReducer function from redux-toolkit" />
   </component>
 </project>
